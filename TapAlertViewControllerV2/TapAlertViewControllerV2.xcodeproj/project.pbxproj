@@ -1,0 +1,603 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9C98A54F2B35D937D2A93C02 /* Pods_TapAlertViewControllerV2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D90D649254B16A5EC4EDF325 /* Pods_TapAlertViewControllerV2.framework */; };
+		E8B5D4B82519F81F006A8770 /* Controllers.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E8B5D4922519F81F006A8770 /* Controllers.storyboard */; };
+		E8B5D4B92519F81F006A8770 /* AlertAnimationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8B5D4962519F81F006A8770 /* AlertAnimationController.swift */; };
+		E8B5D4BA2519F81F006A8770 /* ActionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8B5D4982519F81F006A8770 /* ActionTableViewCell.swift */; };
+		E8B5D4BB2519F81F006A8770 /* DoubleActionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8B5D4992519F81F006A8770 /* DoubleActionTableViewCell.swift */; };
+		E8B5D4BC2519F81F006A8770 /* ButtonCellStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8B5D49B2519F81F006A8770 /* ButtonCellStyle.swift */; };
+		E8B5D4BD2519F81F006A8770 /* Bundle+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8B5D49D2519F81F006A8770 /* Bundle+Additions.swift */; };
+		E8B5D4BE2519F81F006A8770 /* CAKeyframeAnimation+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8B5D49E2519F81F006A8770 /* CAKeyframeAnimation+Additions.swift */; };
+		E8B5D4BF2519F81F006A8770 /* UIFont+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8B5D49F2519F81F006A8770 /* UIFont+Additions.swift */; };
+		E8B5D4C02519F81F006A8770 /* ActionProtocol+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8B5D4A02519F81F006A8770 /* ActionProtocol+Additions.swift */; };
+		E8B5D4C12519F81F006A8770 /* TapAlertAction+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8B5D4A12519F81F006A8770 /* TapAlertAction+Additions.swift */; };
+		E8B5D4C22519F81F006A8770 /* CGFloat+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8B5D4A22519F81F006A8770 /* CGFloat+Additions.swift */; };
+		E8B5D4C32519F81F006A8770 /* UIStoryboard+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8B5D4A32519F81F006A8770 /* UIStoryboard+Additions.swift */; };
+		E8B5D4C42519F81F006A8770 /* ButtonsTableViewHandlerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8B5D4A52519F81F006A8770 /* ButtonsTableViewHandlerDelegate.swift */; };
+		E8B5D4C52519F81F006A8770 /* ActionTableViewCellDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8B5D4A62519F81F006A8770 /* ActionTableViewCellDelegate.swift */; };
+		E8B5D4C62519F81F006A8770 /* TransitionsHandlerSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8B5D4A72519F81F006A8770 /* TransitionsHandlerSupport.swift */; };
+		E8B5D4C72519F81F006A8770 /* TransitionsHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8B5D4A92519F81F006A8770 /* TransitionsHandler.swift */; };
+		E8B5D4C82519F81F006A8770 /* ButtonsTableViewHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8B5D4AA2519F81F006A8770 /* ButtonsTableViewHandler.swift */; };
+		E8B5D4C92519F81F006A8770 /* TapAlertActionStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8B5D4AD2519F81F006A8770 /* TapAlertActionStyle.swift */; };
+		E8B5D4CA2519F81F006A8770 /* TapAlertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8B5D4AF2519F81F006A8770 /* TapAlertViewController.swift */; };
+		E8B5D4CB2519F81F006A8770 /* TapAlertDoubleAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8B5D4B12519F81F006A8770 /* TapAlertDoubleAction.swift */; };
+		E8B5D4CC2519F81F006A8770 /* TapAlertAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8B5D4B22519F81F006A8770 /* TapAlertAction.swift */; };
+		E8B5D4CD2519F81F006A8770 /* ActionProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8B5D4B42519F81F006A8770 /* ActionProtocol.swift */; };
+		E8B5D4CE2519F81F006A8770 /* OrientationHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8B5D4B52519F81F006A8770 /* OrientationHandler.swift */; };
+		E8B5D4CF2519F81F006A8770 /* AlertOrientationHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8B5D4B72519F81F006A8770 /* AlertOrientationHandler.swift */; };
+		E8CC36E52519DDF70067088C /* TapAlertViewControllerV2.h in Headers */ = {isa = PBXBuildFile; fileRef = E8CC36E32519DDF70067088C /* TapAlertViewControllerV2.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		29A488596828845FD91CF3B1 /* Pods-TapAlertViewControllerV2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TapAlertViewControllerV2.release.xcconfig"; path = "Target Support Files/Pods-TapAlertViewControllerV2/Pods-TapAlertViewControllerV2.release.xcconfig"; sourceTree = "<group>"; };
+		BAFEF6368C390509F5DC2845 /* Pods-TapAlertViewControllerV2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TapAlertViewControllerV2.debug.xcconfig"; path = "Target Support Files/Pods-TapAlertViewControllerV2/Pods-TapAlertViewControllerV2.debug.xcconfig"; sourceTree = "<group>"; };
+		D90D649254B16A5EC4EDF325 /* Pods_TapAlertViewControllerV2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TapAlertViewControllerV2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E8B5D4922519F81F006A8770 /* Controllers.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Controllers.storyboard; sourceTree = "<group>"; };
+		E8B5D4962519F81F006A8770 /* AlertAnimationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlertAnimationController.swift; sourceTree = "<group>"; };
+		E8B5D4982519F81F006A8770 /* ActionTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActionTableViewCell.swift; sourceTree = "<group>"; };
+		E8B5D4992519F81F006A8770 /* DoubleActionTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DoubleActionTableViewCell.swift; sourceTree = "<group>"; };
+		E8B5D49B2519F81F006A8770 /* ButtonCellStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ButtonCellStyle.swift; sourceTree = "<group>"; };
+		E8B5D49D2519F81F006A8770 /* Bundle+Additions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Bundle+Additions.swift"; sourceTree = "<group>"; };
+		E8B5D49E2519F81F006A8770 /* CAKeyframeAnimation+Additions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CAKeyframeAnimation+Additions.swift"; sourceTree = "<group>"; };
+		E8B5D49F2519F81F006A8770 /* UIFont+Additions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIFont+Additions.swift"; sourceTree = "<group>"; };
+		E8B5D4A02519F81F006A8770 /* ActionProtocol+Additions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ActionProtocol+Additions.swift"; sourceTree = "<group>"; };
+		E8B5D4A12519F81F006A8770 /* TapAlertAction+Additions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "TapAlertAction+Additions.swift"; sourceTree = "<group>"; };
+		E8B5D4A22519F81F006A8770 /* CGFloat+Additions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CGFloat+Additions.swift"; sourceTree = "<group>"; };
+		E8B5D4A32519F81F006A8770 /* UIStoryboard+Additions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIStoryboard+Additions.swift"; sourceTree = "<group>"; };
+		E8B5D4A52519F81F006A8770 /* ButtonsTableViewHandlerDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ButtonsTableViewHandlerDelegate.swift; sourceTree = "<group>"; };
+		E8B5D4A62519F81F006A8770 /* ActionTableViewCellDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActionTableViewCellDelegate.swift; sourceTree = "<group>"; };
+		E8B5D4A72519F81F006A8770 /* TransitionsHandlerSupport.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransitionsHandlerSupport.swift; sourceTree = "<group>"; };
+		E8B5D4A92519F81F006A8770 /* TransitionsHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransitionsHandler.swift; sourceTree = "<group>"; };
+		E8B5D4AA2519F81F006A8770 /* ButtonsTableViewHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ButtonsTableViewHandler.swift; sourceTree = "<group>"; };
+		E8B5D4AD2519F81F006A8770 /* TapAlertActionStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TapAlertActionStyle.swift; sourceTree = "<group>"; };
+		E8B5D4AF2519F81F006A8770 /* TapAlertViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TapAlertViewController.swift; sourceTree = "<group>"; };
+		E8B5D4B12519F81F006A8770 /* TapAlertDoubleAction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TapAlertDoubleAction.swift; sourceTree = "<group>"; };
+		E8B5D4B22519F81F006A8770 /* TapAlertAction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TapAlertAction.swift; sourceTree = "<group>"; };
+		E8B5D4B42519F81F006A8770 /* ActionProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActionProtocol.swift; sourceTree = "<group>"; };
+		E8B5D4B52519F81F006A8770 /* OrientationHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OrientationHandler.swift; sourceTree = "<group>"; };
+		E8B5D4B72519F81F006A8770 /* AlertOrientationHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlertOrientationHandler.swift; sourceTree = "<group>"; };
+		E8CC36E02519DDF70067088C /* TapAlertViewControllerV2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TapAlertViewControllerV2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E8CC36E32519DDF70067088C /* TapAlertViewControllerV2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TapAlertViewControllerV2.h; sourceTree = "<group>"; };
+		E8CC36E42519DDF70067088C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E8CC36DD2519DDF70067088C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C98A54F2B35D937D2A93C02 /* Pods_TapAlertViewControllerV2.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7577CAE7A845F85A7834781E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BAFEF6368C390509F5DC2845 /* Pods-TapAlertViewControllerV2.debug.xcconfig */,
+				29A488596828845FD91CF3B1 /* Pods-TapAlertViewControllerV2.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		9A4E3BCB09048F6739A5AF06 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D90D649254B16A5EC4EDF325 /* Pods_TapAlertViewControllerV2.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E8B5D4912519F81F006A8770 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E8B5D4922519F81F006A8770 /* Controllers.storyboard */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		E8B5D4932519F81F006A8770 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				E8B5D4942519F81F006A8770 /* Internal */,
+				E8B5D4AB2519F81F006A8770 /* Public */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		E8B5D4942519F81F006A8770 /* Internal */ = {
+			isa = PBXGroup;
+			children = (
+				E8B5D4952519F81F006A8770 /* Animation Controllers */,
+				E8B5D4972519F81F006A8770 /* Cells */,
+				E8B5D49A2519F81F006A8770 /* Enums */,
+				E8B5D49C2519F81F006A8770 /* Extensions */,
+				E8B5D4A42519F81F006A8770 /* Protocols */,
+				E8B5D4A82519F81F006A8770 /* Handlers */,
+			);
+			path = Internal;
+			sourceTree = "<group>";
+		};
+		E8B5D4952519F81F006A8770 /* Animation Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				E8B5D4962519F81F006A8770 /* AlertAnimationController.swift */,
+			);
+			path = "Animation Controllers";
+			sourceTree = "<group>";
+		};
+		E8B5D4972519F81F006A8770 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				E8B5D4982519F81F006A8770 /* ActionTableViewCell.swift */,
+				E8B5D4992519F81F006A8770 /* DoubleActionTableViewCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		E8B5D49A2519F81F006A8770 /* Enums */ = {
+			isa = PBXGroup;
+			children = (
+				E8B5D49B2519F81F006A8770 /* ButtonCellStyle.swift */,
+			);
+			path = Enums;
+			sourceTree = "<group>";
+		};
+		E8B5D49C2519F81F006A8770 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				E8B5D49D2519F81F006A8770 /* Bundle+Additions.swift */,
+				E8B5D49E2519F81F006A8770 /* CAKeyframeAnimation+Additions.swift */,
+				E8B5D49F2519F81F006A8770 /* UIFont+Additions.swift */,
+				E8B5D4A02519F81F006A8770 /* ActionProtocol+Additions.swift */,
+				E8B5D4A12519F81F006A8770 /* TapAlertAction+Additions.swift */,
+				E8B5D4A22519F81F006A8770 /* CGFloat+Additions.swift */,
+				E8B5D4A32519F81F006A8770 /* UIStoryboard+Additions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		E8B5D4A42519F81F006A8770 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				E8B5D4A52519F81F006A8770 /* ButtonsTableViewHandlerDelegate.swift */,
+				E8B5D4A62519F81F006A8770 /* ActionTableViewCellDelegate.swift */,
+				E8B5D4A72519F81F006A8770 /* TransitionsHandlerSupport.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		E8B5D4A82519F81F006A8770 /* Handlers */ = {
+			isa = PBXGroup;
+			children = (
+				E8B5D4A92519F81F006A8770 /* TransitionsHandler.swift */,
+				E8B5D4AA2519F81F006A8770 /* ButtonsTableViewHandler.swift */,
+			);
+			path = Handlers;
+			sourceTree = "<group>";
+		};
+		E8B5D4AB2519F81F006A8770 /* Public */ = {
+			isa = PBXGroup;
+			children = (
+				E8B5D4AC2519F81F006A8770 /* Enums */,
+				E8B5D4AE2519F81F006A8770 /* View Controllers */,
+				E8B5D4B02519F81F006A8770 /* Models */,
+				E8B5D4B32519F81F006A8770 /* Protocols */,
+				E8B5D4B62519F81F006A8770 /* Handlers */,
+			);
+			path = Public;
+			sourceTree = "<group>";
+		};
+		E8B5D4AC2519F81F006A8770 /* Enums */ = {
+			isa = PBXGroup;
+			children = (
+				E8B5D4AD2519F81F006A8770 /* TapAlertActionStyle.swift */,
+			);
+			path = Enums;
+			sourceTree = "<group>";
+		};
+		E8B5D4AE2519F81F006A8770 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				E8B5D4AF2519F81F006A8770 /* TapAlertViewController.swift */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		E8B5D4B02519F81F006A8770 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				E8B5D4B12519F81F006A8770 /* TapAlertDoubleAction.swift */,
+				E8B5D4B22519F81F006A8770 /* TapAlertAction.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		E8B5D4B32519F81F006A8770 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				E8B5D4B42519F81F006A8770 /* ActionProtocol.swift */,
+				E8B5D4B52519F81F006A8770 /* OrientationHandler.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		E8B5D4B62519F81F006A8770 /* Handlers */ = {
+			isa = PBXGroup;
+			children = (
+				E8B5D4B72519F81F006A8770 /* AlertOrientationHandler.swift */,
+			);
+			path = Handlers;
+			sourceTree = "<group>";
+		};
+		E8CC36D62519DDF70067088C = {
+			isa = PBXGroup;
+			children = (
+				E8CC36E22519DDF70067088C /* TapAlertViewControllerV2 */,
+				E8CC36E12519DDF70067088C /* Products */,
+				7577CAE7A845F85A7834781E /* Pods */,
+				9A4E3BCB09048F6739A5AF06 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		E8CC36E12519DDF70067088C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E8CC36E02519DDF70067088C /* TapAlertViewControllerV2.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E8CC36E22519DDF70067088C /* TapAlertViewControllerV2 */ = {
+			isa = PBXGroup;
+			children = (
+				E8B5D4912519F81F006A8770 /* Resources */,
+				E8B5D4932519F81F006A8770 /* Source */,
+				E8CC36E32519DDF70067088C /* TapAlertViewControllerV2.h */,
+				E8CC36E42519DDF70067088C /* Info.plist */,
+			);
+			path = TapAlertViewControllerV2;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		E8CC36DB2519DDF70067088C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E8CC36E52519DDF70067088C /* TapAlertViewControllerV2.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		E8CC36DF2519DDF70067088C /* TapAlertViewControllerV2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E8CC36E82519DDF70067088C /* Build configuration list for PBXNativeTarget "TapAlertViewControllerV2" */;
+			buildPhases = (
+				FEAAAC2AEBEB046928ED0D80 /* [CP] Check Pods Manifest.lock */,
+				E8CC36DB2519DDF70067088C /* Headers */,
+				E8CC36DC2519DDF70067088C /* Sources */,
+				E8CC36DD2519DDF70067088C /* Frameworks */,
+				E8CC36DE2519DDF70067088C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TapAlertViewControllerV2;
+			productName = TapAlertViewControllerV2;
+			productReference = E8CC36E02519DDF70067088C /* TapAlertViewControllerV2.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E8CC36D72519DDF70067088C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					E8CC36DF2519DDF70067088C = {
+						CreatedOnToolsVersion = 12.0;
+					};
+				};
+			};
+			buildConfigurationList = E8CC36DA2519DDF70067088C /* Build configuration list for PBXProject "TapAlertViewControllerV2" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E8CC36D62519DDF70067088C;
+			productRefGroup = E8CC36E12519DDF70067088C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E8CC36DF2519DDF70067088C /* TapAlertViewControllerV2 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E8CC36DE2519DDF70067088C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E8B5D4B82519F81F006A8770 /* Controllers.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		FEAAAC2AEBEB046928ED0D80 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TapAlertViewControllerV2-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E8CC36DC2519DDF70067088C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E8B5D4BE2519F81F006A8770 /* CAKeyframeAnimation+Additions.swift in Sources */,
+				E8B5D4CA2519F81F006A8770 /* TapAlertViewController.swift in Sources */,
+				E8B5D4CC2519F81F006A8770 /* TapAlertAction.swift in Sources */,
+				E8B5D4B92519F81F006A8770 /* AlertAnimationController.swift in Sources */,
+				E8B5D4C22519F81F006A8770 /* CGFloat+Additions.swift in Sources */,
+				E8B5D4BC2519F81F006A8770 /* ButtonCellStyle.swift in Sources */,
+				E8B5D4C02519F81F006A8770 /* ActionProtocol+Additions.swift in Sources */,
+				E8B5D4CB2519F81F006A8770 /* TapAlertDoubleAction.swift in Sources */,
+				E8B5D4C32519F81F006A8770 /* UIStoryboard+Additions.swift in Sources */,
+				E8B5D4BA2519F81F006A8770 /* ActionTableViewCell.swift in Sources */,
+				E8B5D4BD2519F81F006A8770 /* Bundle+Additions.swift in Sources */,
+				E8B5D4C82519F81F006A8770 /* ButtonsTableViewHandler.swift in Sources */,
+				E8B5D4C12519F81F006A8770 /* TapAlertAction+Additions.swift in Sources */,
+				E8B5D4C52519F81F006A8770 /* ActionTableViewCellDelegate.swift in Sources */,
+				E8B5D4BB2519F81F006A8770 /* DoubleActionTableViewCell.swift in Sources */,
+				E8B5D4C62519F81F006A8770 /* TransitionsHandlerSupport.swift in Sources */,
+				E8B5D4CD2519F81F006A8770 /* ActionProtocol.swift in Sources */,
+				E8B5D4C72519F81F006A8770 /* TransitionsHandler.swift in Sources */,
+				E8B5D4CF2519F81F006A8770 /* AlertOrientationHandler.swift in Sources */,
+				E8B5D4BF2519F81F006A8770 /* UIFont+Additions.swift in Sources */,
+				E8B5D4CE2519F81F006A8770 /* OrientationHandler.swift in Sources */,
+				E8B5D4C92519F81F006A8770 /* TapAlertActionStyle.swift in Sources */,
+				E8B5D4C42519F81F006A8770 /* ButtonsTableViewHandlerDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		E8CC36E62519DDF70067088C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E8CC36E72519DDF70067088C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E8CC36E92519DDF70067088C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BAFEF6368C390509F5DC2845 /* Pods-TapAlertViewControllerV2.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = G46S76PUH4;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = TapAlertViewControllerV2/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = tap.TapAlertViewControllerV2;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E8CC36EA2519DDF70067088C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 29A488596828845FD91CF3B1 /* Pods-TapAlertViewControllerV2.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = G46S76PUH4;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = TapAlertViewControllerV2/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = tap.TapAlertViewControllerV2;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E8CC36DA2519DDF70067088C /* Build configuration list for PBXProject "TapAlertViewControllerV2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E8CC36E62519DDF70067088C /* Debug */,
+				E8CC36E72519DDF70067088C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E8CC36E82519DDF70067088C /* Build configuration list for PBXNativeTarget "TapAlertViewControllerV2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E8CC36E92519DDF70067088C /* Debug */,
+				E8CC36EA2519DDF70067088C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E8CC36D72519DDF70067088C /* Project object */;
+}
