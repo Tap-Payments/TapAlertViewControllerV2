@@ -105,6 +105,7 @@ Pod::Spec.new do |spec|
 
   # spec.resource  = "icon.png"
   spec.resources = "TapAlertViewControllerV2/TapAlertViewControllerV2/Resources/*.{storyboard}"
+  spec.ios.resource_bundle		= { 'TapAlertViewControllerResources' => ['TapAlertViewControllerV2/TapAlertViewControllerV2/Resources/*.{storyboard}'] }
 
   # spec.preserve_paths = "FilesToSave", "MoreFilesToSave"
 

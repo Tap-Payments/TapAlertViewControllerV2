@@ -15,7 +15,6 @@
 			dependencies = (
 			);
 			name = SwiftLint;
-			productName = SwiftLint;
 		};
 /* End PBXAggregateTarget section */
 
@@ -232,7 +231,7 @@
 		2FA8DD703425C81EB05789E953638B1D /* UIScreen+Additions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIScreen+Additions.swift"; path = "TapAdditionsKitV2/TapAdditionsKitV2/UIKit/UIScreen+Additions.swift"; sourceTree = "<group>"; };
 		33F753EEB40FA278EB1A27C27686E3A1 /* TapSwiftFixes.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TapSwiftFixes.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		355F5A27FF571463999B2585D6575943 /* CNContactStore+Additions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "CNContactStore+Additions.swift"; path = "TapAdditionsKitV2/TapAdditionsKitV2/Contacts/CNContactStore+Additions.swift"; sourceTree = "<group>"; };
-		37F94AEF9BB81C951EE558BD988A1096 /* TapNibViewV2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TapNibViewV2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		37F94AEF9BB81C951EE558BD988A1096 /* TapNibViewV2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = TapNibViewV2.framework; path = TapNibViewV2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3A01C368D04A1F5C8DFB7B84ECD33F92 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		3ACA2214F33506E47E1B95BC00074A3D /* ClassProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ClassProtocol.swift; path = TapAdditionsKitV2/TapAdditionsKitV2/Tap/ClassProtocol.swift; sourceTree = "<group>"; };
 		3BF5509C2FD788BA12621E2AFE00A5CE /* OptionSet+Additions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "OptionSet+Additions.swift"; path = "TapAdditionsKitV2/TapAdditionsKitV2/SwiftStandartLibrary/OptionSet+Additions.swift"; sourceTree = "<group>"; };
@@ -274,7 +273,7 @@
 		7FA55C1FDDF910A41E767F9C1793E2F0 /* Bool+Additions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Bool+Additions.swift"; path = "TapAdditionsKitV2/TapAdditionsKitV2/SwiftStandartLibrary/Bool+Additions.swift"; sourceTree = "<group>"; };
 		8291A3B7108063950A1830A75DC81693 /* TapSwiftFixes.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TapSwiftFixes.debug.xcconfig; sourceTree = "<group>"; };
 		82CE0CEA364DF10DAE0965DF279D92B0 /* UIResponder+Additions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIResponder+Additions.swift"; path = "TapAdditionsKitV2/TapAdditionsKitV2/UIKit/UIResponder+Additions.swift"; sourceTree = "<group>"; };
-		84871724B175C65C3532EA38AF2E0265 /* TapAdditionsKitV2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TapAdditionsKitV2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		84871724B175C65C3532EA38AF2E0265 /* TapAdditionsKitV2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = TapAdditionsKitV2.framework; path = TapAdditionsKitV2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		858E212F67614FA1C8A11EE38BBB0B0A /* TapNibLoading.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TapNibLoading.swift; path = TapNibViewV2/TapNibViewV2/Source/TapNibLoading.swift; sourceTree = "<group>"; };
 		87FFC6D19B8B91CC79F55E09DC5DCE2E /* UIButton+Additions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIButton+Additions.swift"; path = "TapAdditionsKitV2/TapAdditionsKitV2/UIKit/UIButton+Additions.swift"; sourceTree = "<group>"; };
 		8A9986C906E2DE83EB270CC5AD437490 /* Data+Additions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Data+Additions.swift"; path = "TapAdditionsKitV2/TapAdditionsKitV2/Foundation/Data+Additions.swift"; sourceTree = "<group>"; };
@@ -286,9 +285,9 @@
 		99539CF1EC32D7576221B99AE7207F65 /* UIEdgeInsets+Additions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIEdgeInsets+Additions.swift"; path = "TapAdditionsKitV2/TapAdditionsKitV2/UIKit/UIEdgeInsets+Additions.swift"; sourceTree = "<group>"; };
 		996BC3D0F99DCE38A3F8E65009BB8C02 /* TapVisualEffectViewV2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TapVisualEffectViewV2.release.xcconfig; sourceTree = "<group>"; };
 		9C79127253250943800864F392DA6CED /* TapAdditionsKitV2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TapAdditionsKitV2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9DE6D7E515C16FEAEC0A05C2623F169E /* TapNibViewV2-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TapNibViewV2-umbrella.h"; sourceTree = "<group>"; };
-		9E39AE18A8F8BBF6A5D9A98199DFBCCF /* TapVisualEffectViewV2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TapVisualEffectViewV2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9E39AE18A8F8BBF6A5D9A98199DFBCCF /* TapVisualEffectViewV2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = TapVisualEffectViewV2.framework; path = TapVisualEffectViewV2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A0AD4923C15826CE4C6C7650D6E69002 /* TapNibViewV2-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TapNibViewV2-prefix.pch"; sourceTree = "<group>"; };
 		A3501EE17869338AB24EF32F59725C76 /* TapVisualEffectViewV2-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TapVisualEffectViewV2-dummy.m"; sourceTree = "<group>"; };
 		A412AB2E7706FD7333D14ED7EC06B915 /* TapAdditionsKitV2-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "TapAdditionsKitV2-Info.plist"; sourceTree = "<group>"; };
@@ -306,7 +305,7 @@
 		BB4226067B7783D9A22237FB2B1D0E07 /* NSLayoutConstraint+Additions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSLayoutConstraint+Additions.swift"; path = "TapAdditionsKitV2/TapAdditionsKitV2/UIKit/NSLayoutConstraint+Additions.swift"; sourceTree = "<group>"; };
 		BB7CAD160C267ACD3FF7BF12A2F57CC4 /* URLSessionDataTaskResult.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = URLSessionDataTaskResult.swift; path = TapAdditionsKitV2/TapAdditionsKitV2/Foundation/URLSessionDataTaskResult.swift; sourceTree = "<group>"; };
 		BC3465D466A6ED3D6AE57EDC122E9145 /* TapNibViewV2.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = TapNibViewV2.modulemap; sourceTree = "<group>"; };
-		BC351459408AB40B38BF862855183ADF /* TapSwiftFixes.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TapSwiftFixes.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC351459408AB40B38BF862855183ADF /* TapSwiftFixes.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = TapSwiftFixes.framework; path = TapSwiftFixes.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD80C1F862457CCEB403C6EC8EA90243 /* TapVisualEffectView.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = TapVisualEffectView.xib; path = TapVisualEffectViewV2/TapVisualEffectViewV2/Resources/TapVisualEffectView.xib; sourceTree = "<group>"; };
 		C0C31788A11C2A11DB8A496BCCA00F3B /* Int+Additions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Int+Additions.swift"; path = "TapAdditionsKitV2/TapAdditionsKitV2/SwiftStandartLibrary/Int+Additions.swift"; sourceTree = "<group>"; };
 		C10A8EC94779425C10B51220E2FDF346 /* Locale+Additions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Locale+Additions.swift"; path = "TapAdditionsKitV2/TapAdditionsKitV2/Foundation/Locale+Additions.swift"; sourceTree = "<group>"; };
@@ -314,7 +313,7 @@
 		C468C1FD0BD2FB7A96D7A9C0545D0685 /* KeyframeAnimationOptions+Additions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "KeyframeAnimationOptions+Additions.swift"; path = "TapAdditionsKitV2/TapAdditionsKitV2/UIKit/UIView/KeyframeAnimationOptions+Additions.swift"; sourceTree = "<group>"; };
 		C5175BFD39277A85FB18891370CA52B5 /* MemoryLayout+Additions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "MemoryLayout+Additions.swift"; path = "TapAdditionsKitV2/TapAdditionsKitV2/SwiftStandartLibrary/MemoryLayout+Additions.swift"; sourceTree = "<group>"; };
 		C6E413A25361BD5C9A170B51E3936010 /* UILabel+Additions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UILabel+Additions.swift"; path = "TapAdditionsKitV2/TapAdditionsKitV2/UIKit/UILabel+Additions.swift"; sourceTree = "<group>"; };
-		C72085E7C2695617F8A97A25EEBFDFF1 /* Pods_TapAlertViewControllerV2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TapAlertViewControllerV2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C72085E7C2695617F8A97A25EEBFDFF1 /* Pods_TapAlertViewControllerV2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TapAlertViewControllerV2.framework; path = "Pods-TapAlertViewControllerV2.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB1F9C230BD5C083604568CD3784C971 /* TapSwiftFixes.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TapSwiftFixes.release.xcconfig; sourceTree = "<group>"; };
 		CE38DD7252388526FC6E58349E40F1BA /* TapNibInputView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TapNibInputView.swift; path = TapNibViewV2/TapNibViewV2/Source/TapNibInputView.swift; sourceTree = "<group>"; };
 		D22DBFE9422F71F07CB21FBC952D5A73 /* CNContactFetchRequest+Additions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "CNContactFetchRequest+Additions.swift"; path = "TapAdditionsKitV2/TapAdditionsKitV2/Contacts/CNContactFetchRequest+Additions.swift"; sourceTree = "<group>"; };
@@ -466,6 +465,7 @@
 				1279D8E1DB0FD96C1AE6C2AB1C9FD901 /* UserDefaults+Additions.swift */,
 				6D4CDDDC02CF05C7D049644FBD3B2C1F /* Support Files */,
 			);
+			name = TapAdditionsKitV2;
 			path = TapAdditionsKitV2;
 			sourceTree = "<group>";
 		};
@@ -484,6 +484,7 @@
 				45D205F15E6D84C7ADCB8466F8AD2CA8 /* Support Files */,
 				846A0F794B2D6DC5FD97D495370B6903 /* Threading */,
 			);
+			name = TapSwiftFixes;
 			path = TapSwiftFixes;
 			sourceTree = "<group>";
 		};
@@ -519,6 +520,7 @@
 				A8F141DB43DD3713B34AEBF799CD6D63 /* TapNibView.swift */,
 				ABD34CBFC58B0E583CCECA37530F70AE /* Support Files */,
 			);
+			name = TapNibViewV2;
 			path = TapNibViewV2;
 			sourceTree = "<group>";
 		};
@@ -587,6 +589,7 @@
 			children = (
 				79453E64CFFB58DD33F3BAD7AF9A3886 /* Support Files */,
 			);
+			name = SwiftLint;
 			path = SwiftLint;
 			sourceTree = "<group>";
 		};
@@ -681,6 +684,7 @@
 				CBAF7541B4F7A6F8742FC3F1443C1F19 /* Resources */,
 				8AF41BFCD8BE512CDF9738336F053E16 /* Support Files */,
 			);
+			name = TapVisualEffectViewV2;
 			path = TapVisualEffectViewV2;
 			sourceTree = "<group>";
 		};
@@ -1149,7 +1153,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/TapSwiftFixes/TapSwiftFixes-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/TapSwiftFixes/TapSwiftFixes-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -1212,7 +1216,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -1228,7 +1232,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -1559,7 +1563,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/TapSwiftFixes/TapSwiftFixes-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/TapSwiftFixes/TapSwiftFixes-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
