@@ -5,6 +5,7 @@
 //  Copyright © 2019 Tap Payments. All rights reserved.
 //
 
+import Foundation
 /// Double action. Represents two actions next each to other in UI.
 public class TapAlertDoubleAction: ActionProtocol {
 	

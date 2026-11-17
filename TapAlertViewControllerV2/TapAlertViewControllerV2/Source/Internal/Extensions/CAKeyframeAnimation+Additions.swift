@@ -5,6 +5,7 @@
 //  Copyright © 2019 Tap Payments. All rights reserved.
 //
 
+import Foundation
 import class	QuartzCore.CAAnimation.CAKeyframeAnimation
 import func		QuartzCore.CATransform3D.CATransform3DMakeScale
 
