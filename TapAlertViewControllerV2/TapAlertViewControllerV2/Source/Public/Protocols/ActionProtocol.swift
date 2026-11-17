@@ -5,6 +5,7 @@
 //  Copyright © 2019 Tap Payments. All rights reserved.
 //
 
+import Foundation
 import protocol	TapAdditionsKitV2.ClassProtocol
 
 /// Mapping protocol. Don't conform to it.

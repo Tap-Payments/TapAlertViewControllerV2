@@ -12,7 +12,7 @@
         <!--Tap Alert View Controller-->
         <scene sceneID="uoz-IX-c1d">
             <objects>
-                <viewController storyboardIdentifier="TapAlertViewController" id="bDF-P8-liA" customClass="TapAlertViewController" customModule="TapAlertViewController" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="TapAlertViewController" id="bDF-P8-liA" customClass="TapAlertViewController" customModule="TapAlertViewControllerV2" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="ZL7-HW-CCs"/>
                         <viewControllerLayoutGuide type="bottom" id="U3D-zW-0Nc"/>
@@ -31,7 +31,7 @@
                                     <view clipsSubviews="YES" contentMode="scaleToFill" verticalHuggingPriority="260" verticalCompressionResistancePriority="749" translatesAutoresizingMaskIntoConstraints="NO" id="hVp-Ei-QTY">
                                         <rect key="frame" x="52.5" y="214.5" width="270" height="218.5"/>
                                         <subviews>
-                                            <view userInteractionEnabled="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ffG-Bv-6tq" customClass="TapVisualEffectView" customModule="TapVisualEffectView">
+                                            <view userInteractionEnabled="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ffG-Bv-6tq" customClass="TapVisualEffectView" customModule="TapVisualEffectViewV2">
                                                 <rect key="frame" x="0.0" y="0.0" width="270" height="218.5"/>
                                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                             </view>
@@ -94,7 +94,7 @@
                                                         </constraints>
                                                         <color key="sectionIndexBackgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <prototypes>
-                                                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="DoubleActionTableViewCell" rowHeight="44" id="dEa-dl-fdh" customClass="DoubleActionTableViewCell" customModule="TapAlertViewController">
+                                                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="DoubleActionTableViewCell" rowHeight="44" id="dEa-dl-fdh" customClass="DoubleActionTableViewCell" customModule="TapAlertViewControllerV2">
                                                                 <rect key="frame" x="0.0" y="28" width="270" height="44"/>
                                                                 <autoresizingMask key="autoresizingMask"/>
                                                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="dEa-dl-fdh" id="PcL-Dk-Ph3">
@@ -156,7 +156,7 @@
                                                                     <outlet property="secondButton" destination="Ev0-Yn-553" id="t4G-k5-Tso"/>
                                                                 </connections>
                                                             </tableViewCell>
-                                                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="ActionTableViewCell" rowHeight="44" id="Fc7-0J-n9f" customClass="ActionTableViewCell" customModule="TapAlertViewController">
+                                                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="ActionTableViewCell" rowHeight="44" id="Fc7-0J-n9f" customClass="ActionTableViewCell" customModule="TapAlertViewControllerV2">
                                                                 <rect key="frame" x="0.0" y="72" width="270" height="44"/>
                                                                 <autoresizingMask key="autoresizingMask"/>
                                                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Fc7-0J-n9f" id="H9G-dp-q6t">
